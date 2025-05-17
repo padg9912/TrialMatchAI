@@ -1,0 +1,49 @@
+1. AI-Powered Medication Adherence Tracker
+What: Mobile/web app that uses reminders, pill recognition (via photo), and NLP to track if patients are taking their meds.
+Novelty: Integrate with EHRs, use computer vision to verify pills, and provide adherence analytics for clinicians.
+Tech: Streamlit/React Native, OpenCV, Twilio for SMS, FHIR API.
+
+2. Personalized Drug-Drug Interaction Checker
+What: Tool that checks a patient's full medication list (including supplements) for interactions, using NLP to parse free-text lists.
+Novelty: Uses up-to-date literature (PubMed, DrugBank) and can explain interactions in plain language.
+Tech: Python, transformers, DrugBank API, Streamlit.
+
+3. AI Symptom Triage Chatbot
+What: Chatbot that asks patients about symptoms and triages them to the right care (ER, telemedicine, self-care).
+Novelty: Uses LLMs for empathetic conversation, integrates with local hospital/clinic directories, and can escalate to a human.
+Tech: LangChain, OpenAI API, Twilio, Streamlit.
+
+4. Medical Imaging Anomaly Detector
+What: Upload X-rays, CTs, or MRIs and get AI-powered anomaly detection (e.g., pneumonia, fractures).
+Novelty: Explainable AI—shows heatmaps and provides a "second opinion" for radiologists.
+Tech: PyTorch/TensorFlow, Grad-CAM, Streamlit.
+
+5. Clinical Note De-Identification Tool
+What: API or app that redacts PHI (names, dates, locations) from clinical notes using NLP.
+Novelty: Handles handwritten notes (OCR), supports multiple languages, and provides audit logs.
+Tech: Hugging Face transformers, PaddleOCR, Flask API.
+
+6. Real-Time Hospital Bed Availability Dashboard
+What: Dashboard for hospitals to track and share real-time bed/ICU/ventilator availability.
+Novelty: Integrates with hospital EHRs, supports SMS/email alerts, and can be shared with regional health authorities.
+Tech: Streamlit/Dash, FHIR API, Twilio.
+
+7. Genomic Variant Interpreter
+What: Upload VCF files and get clinical interpretations of genetic variants (e.g., cancer risk, drug response).
+Novelty: Links to latest research, provides risk scores, and suggests clinical trials for rare variants.
+Tech: Python, MyVariant.info API, Streamlit.
+
+8. AI-Powered Patient Education Generator
+What: Generates personalized, easy-to-understand patient education handouts based on diagnosis and treatment plan.
+Novelty: Multilingual, uses LLMs to simplify medical jargon, and can generate infographics.
+Tech: OpenAI API, Streamlit, DALL-E.
+
+9. Remote Patient Monitoring Dashboard
+What: Aggregates data from wearables (Fitbit, Apple Watch) and flags concerning trends (e.g., arrhythmia, hypoxia).
+Novelty: Predictive alerts, integrates with telemedicine, and provides summary reports for clinicians.
+Tech: Streamlit, wearable APIs, scikit-learn.
+
+10. Clinical Trial Recruitment Optimizer
+What: Tool for hospitals to match their patient population to open clinical trials and optimize recruitment.
+Novelty: Uses EHR data, NLP for eligibility, and provides outreach templates for patients.
+Tech: FHIR API, transformers, Streamlit. 
