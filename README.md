@@ -90,7 +90,7 @@ female, 62, lung cancer, smoker, stage III, prior radiation therapy
 ---
 
 ## 📄 License
-MIT (or your preferred license)
+MIT 
 
 ---
 
