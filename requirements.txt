@@ -3,4 +3,6 @@ transformers
 torch
 pandas
 requests
-scikit-learn 
+scikit-learn
+plotly
+numpy 
